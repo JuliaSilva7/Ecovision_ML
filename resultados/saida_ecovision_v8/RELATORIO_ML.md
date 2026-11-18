@@ -1,4 +1,4 @@
-# Relatorio de Inteligencia Artificial e Machine Learning — EcoVision V8
+# Relatorio de Inteligencia Artificial e Machine Learning — ecovision
 
 ## 1. Problema e objetivo
 O EcoVision realiza uma classificacao binaria da precipitacao do dia seguinte (D+1). A classe **Baixa** representa acumulado inferior a 10 mm; a classe **Alta** representa acumulado igual ou superior a 10 mm. O objetivo e apoiar o planejamento preventivo e a comunicacao de risco, sem substituir alertas oficiais ou a Defesa Civil.

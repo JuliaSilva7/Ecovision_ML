@@ -1,5 +1,5 @@
 {
-  "versao": "EcoVision V8",
+  "versao": "ecovision",
   "problema": "Classificar precipitacao do dia seguinte (D+1): baixa < 10 mm; alta >= 10 mm",
   "modelo": "RandomForestClassifier",
   "justificativa_modelo": "Modelo de ensemble adequado a dados tabulares e relacoes nao lineares; permite importancia de features.",
@@ -70,7 +70,7 @@
     "f1_alta": 0.48249027237354086,
     "f2_alta": 0.6997742663656885,
     "f1_macro": 0.6420971063678141,
-    "brier": 0.06490761367101502,
+    "brier": 0.06490761367101501,
     "roc_auc": 0.9948175111930946,
     "pr_auc": 0.9650256297467005,
     "verdadeiros_positivos": 434.0,
