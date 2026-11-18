@@ -1,0 +1,19 @@
+from pathlib import Path
+
+gitignore = Path("/content/.gitignore")
+
+conteudo = """
+drive/
+meu_drive/
+sample_data/
+.config/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+venv/
+.venv/
+.env
+"""
+
+gitignore.write_text(conteudo.strip() + "\n", encoding="utf-8")
+print(gitignore.read_text())
