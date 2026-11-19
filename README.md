@@ -1,10 +1,10 @@
-# 🌧️ EcoVision V8 — Inteligência Artificial e Machine Learning
+# 🌧️ EcoVision — Inteligência Artificial e Machine Learning
 
 ### Classificação de precipitação no dia seguinte (D+1) em São Paulo — 2016 a 2025
 
 ## 1. Sobre o projeto
 
-O **EcoVision V8** é um projeto de Inteligência Artificial e Machine Learning desenvolvido para analisar dados meteorológicos históricos e classificar a ocorrência de chuva significativa no dia seguinte.
+O **EcoVision** é um projeto de Inteligência Artificial e Machine Learning desenvolvido para analisar dados meteorológicos históricos e classificar a ocorrência de chuva significativa no dia seguinte.
 
 A solução utiliza dados reais do Instituto Nacional de Meteorologia (INMET), provenientes da estação automática A701 — Mirante, localizada em São Paulo/SP.
 
@@ -39,7 +39,7 @@ O limiar de 10 mm é um critério metodológico definido para este estudo, não 
 
 ## 4. Funcionamento do modelo
 
-O EcoVision V8 utiliza o algoritmo **Random Forest Classifier**, que combina diversas árvores de decisão para realizar a classificação.
+O EcoVision utiliza o algoritmo **Random Forest Classifier**, que combina diversas árvores de decisão para realizar a classificação.
 
 A versão utiliza 47 variáveis preditoras, organizadas em:
 
